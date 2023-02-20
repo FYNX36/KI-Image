@@ -122,3 +122,13 @@
     max-width: 30%;
     background-color: transparent; 
 }
+.Footer{
+    position: absolute;
+    top: 2000px;
+    width: 100%;
+    background-color: black;
+}
+.Copyright{
+    color: rgb(209, 209, 209);
+    text-align: center;
+}
