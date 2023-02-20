@@ -5,6 +5,30 @@ body{
     font-weight: normal;
     overflow-x: hidden;
  }
+ body::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #b8b7b7;
+    border-radius: 100px;
+    border: 0px none #ffffff;
+}
+body::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background:#808080;
+}
+body::-webkit-scrollbar-thumb:active {
+    background:#949494;
+}
 .navbar{
     background-color: black;
     width: 100%;
