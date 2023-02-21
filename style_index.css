@@ -62,11 +62,6 @@ body::-webkit-scrollbar-thumb:active {
     text-decoration: none;
     padding: 10px;
 }
-.use{
-    color: rgba(151, 151, 151, 1);
-    text-decoration: none;
-    padding: 10px;
-}
 .chal{
     color: rgba(151, 151, 151, 1);
     text-decoration: none;

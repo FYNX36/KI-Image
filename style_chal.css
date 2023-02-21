@@ -40,7 +40,7 @@ body::-webkit-scrollbar-thumb:active {
     top: 0px;
 }
 .Link{
-    left: 20px;
+    left: -10px;
     padding: 20px;
     width: 600px;
     text-align: center;
@@ -55,11 +55,6 @@ body::-webkit-scrollbar-thumb:active {
     padding-right: 10px;
 }
 .tech{
-    color: rgba(151, 151, 151, 1);
-    text-decoration: none;
-    padding: 10px;
-}
-.use{
     color: rgba(151, 151, 151, 1);
     text-decoration: none;
     padding: 10px;

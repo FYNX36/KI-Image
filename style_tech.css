@@ -40,7 +40,7 @@ body::-webkit-scrollbar-thumb:active {
     top: 0px;
 }
 .Link{
-    left: 20px;
+    left: -10px;
     padding: 20px;
     width: 600px;
     text-align: center;
@@ -56,11 +56,6 @@ body::-webkit-scrollbar-thumb:active {
 }
 .tech{
     color: rgb(184, 183, 183);
-    text-decoration: none;
-    padding: 10px;
-}
-.use{
-    color: rgba(151, 151, 151, 1);
     text-decoration: none;
     padding: 10px;
 }
@@ -116,9 +111,64 @@ body::-webkit-scrollbar-thumb:active {
     max-width: 30%;
     background-color: transparent; 
 }
+.tabelle{
+    position: absolute;
+    top: 100%;
+    left: 2vw;
+    max-width: 90%;
+    color: #949494;
+    text-align: center;
+    align-items:center;
+}
+table {
+    --tw-border-spacing-x: 0px;
+    --tw-border-spacing-y: 0px;
+    border-collapse: separate;
+    border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
+    width: 100%;
+  }
+  
+  th:first-child {
+    background-color: rgba(236,236,241,.2);
+  }
+  
+  th {
+    background-color: rgba(236,236,241,.2);
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: .25rem .75rem;
+  }
+  
+  th:first-child {
+    border-top-left-radius: .375rem;
+  }
+  
+  th:last-child {
+    border-right: 1px solid #ddd;
+    border-top-right-radius: .375rem;
+  }
+  
+  td {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    padding: .25rem .75rem;
+  }
+  
+  td:last-child {
+    border-right: 1px solid #ddd;
+  }
+  
+  tr:last-child td:first-child {
+    border-bottom-left-radius: .375rem;
+  }
+  
+  tr:last-child td:last-child {
+    border-bottom-right-radius: .375rem;
+  }
 .Footer{
     position: absolute;
-    top: 2000px;
+    top: 1700px;
     width: 100%;
     background-color: black;
 }
@@ -126,8 +176,6 @@ body::-webkit-scrollbar-thumb:active {
     color: rgb(209, 209, 209);
     text-align: center;
 }
-.tabelle{
-    position: absolute;
-    top: 100%;
-    color: aliceblue;
-}
+  
+  
+
