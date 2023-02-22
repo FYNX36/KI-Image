@@ -125,3 +125,10 @@ body::-webkit-scrollbar-thumb:active {
     color: rgb(209, 209, 209);
     text-align: center;
 }
+.about_us{
+    position: absolute;
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+    left: 53.2%;
+    bottom: 16px;
+}

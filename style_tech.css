@@ -90,6 +90,9 @@ body::-webkit-scrollbar-thumb:active {
     width: 50%;
 }
 .whatis_h1{
+    position: absolute;
+    left: 220px;
+    top: 80px;
     color: rgba(151, 151, 151, 1);
     text-align: center;
 }
@@ -98,6 +101,7 @@ body::-webkit-scrollbar-thumb:active {
     left: 250px;
     max-width: 50%;
     background-color: transparent;
+    top: 150px;
 }
 .whatis_txt{
     left: 10px;
@@ -175,6 +179,13 @@ table {
 .Copyright{
     color: rgb(209, 209, 209);
     text-align: center;
+}
+.about_us{
+    position: absolute;
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+    left: 53.2%;
+    bottom: 16px;
 }
   
   
