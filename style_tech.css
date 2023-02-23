@@ -172,21 +172,21 @@ table {
   }
 .Footer{
     position: absolute;
-    top: 1700px;
+    top: 1600px;
     width: 100%;
     background-color: black;
 }
 .Copyright{
+    position: relative;
     color: rgb(209, 209, 209);
-    text-align: center;
+    left: 42%;
 }
 .about_us{
     position: absolute;
     color: rgb(209, 209, 209);
     text-decoration: none;
-    left: 53.2%;
+    left: 48.2%;
     bottom: 16px;
 }
-  
   
 

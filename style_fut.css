@@ -92,18 +92,25 @@ body::-webkit-scrollbar-thumb:active {
 }
 .Footer{
     position: absolute;
-    top: 2000px;
+    top: 1000px;
     width: 100%;
     background-color: black;
 }
 .Copyright{
+    position: relative;
     color: rgb(209, 209, 209);
-    text-align: center;
+    left: 42%;
 }
 .about_us{
     position: absolute;
     color: rgb(209, 209, 209);
     text-decoration: none;
-    left: 53.2%;
+    left: 48.2%;
     bottom: 16px;
+}
+.fut_img{
+    width: 700px;
+    position: absolute;
+    left: 50vw;
+    top: 15vh;
 }
